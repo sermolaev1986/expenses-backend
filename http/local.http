@@ -1,0 +1,17 @@
+OPTIONS localhost:9090/expenses
+Origin: localhost:9090
+
+###
+POST localhost:9090/expenses
+Content-Type: application/json
+Accept: application/json
+
+{
+  "amount": 1,
+  "category": "123",
+  "date": "2021-07-25"
+}
+
+###
+GET localhost:9090/expenses
+Accept: application/json

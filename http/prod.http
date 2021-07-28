@@ -1,0 +1,10 @@
+###
+POST https://verbrauch.herokuapp.com/expenses
+Content-Type: application/json
+Accept: application/json
+
+{
+  "amount": 1,
+  "category": "123",
+  "date": "2021-07-25"
+}
